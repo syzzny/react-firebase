@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
+
+h3{
+    font-size: 50px;
+    color: #ddd;
+}
+h4{
+    font-size: 30px;
+    color: #c1c1c1;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.label:nth-child(2){
+    margin-right: 45px;
+}
+.label{
+    margin-right: 10px;
+    font-size: 18px;
+}
+input{
+    margin-bottom: 5px;
+    height: 25px;
+    width: 200px;
+}
+.loginbtn{
+    margin-top: 20px;
+    width: 320px;
+    height: 40px;
+}
+
+
+.label-list{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.label-list:nth-child(3){
+    margin-right: 27px;
+}
+.listbtn{
+    margin-top: 20px;
+    width: 285px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.searchbtn{
+    height: 31px;
+    width: 75px;
+    margin-left: 4px;
+    margin-bottom: 30px;
+}
+.deletebtn{
+    margin-top: 8px;
+    width: 208px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.updatebtn{
+    width: 208px;
+    height: 30px;
+}
+.memoinput{
+    height: 100px;
+}
