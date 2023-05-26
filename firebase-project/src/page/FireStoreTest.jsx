@@ -74,7 +74,7 @@ export default function FireStoreTest() {
         updateData.memo = updateMemo;
 
         // updateEndDate의 값이 존재하는 경우에만 endDate 필드 값을 업데이트합니다.
-        updateData.endDate = updateEndDate;
+        updateData.endDate = new Date().toLocaleString();
 
         if (updateMemo) {
             await updateDoc(doc(db, 'readingbooks', id), updateData);
